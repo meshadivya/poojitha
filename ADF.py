@@ -39,3 +39,29 @@ Azure Data Factory (ADF) is a cloud-based data integration service that allows y
 - Definition: Monitoring and debugging refer to the process of tracking and troubleshooting pipeline execution.
 - Purpose: Monitoring and debugging are used to ensure that pipelines are running correctly and to identify and fix issues.
 - Components: Monitoring and debugging consist of metrics, logs, and debugging tools, such as Azure Monitor and Azure Log Analytics.
+
+8. DATAFLOWS - Dataflows are used to transform data 
+
+#ACTIVITIES
+    1. Data movement activities
+    2. Control activities
+    3. Data transformation activity
+
+1. Data Movement activities -- 
+    1.Copy Activity
+
+2.Data transformation activity 
+    1. Data flow activity
+
+3. Data control activities
+    1.IF
+    2.Foreach
+    3.Until
+    4.wait
+    5.Getmetadata
+
+Triggers
+    1. Schedule trigger -- to schedule a pipeline to run at specified time 
+    2. Tumbling window trigger -- To schedule a trigger for perticular intervals  
+    3. Event Trigger -- IF any files are inserted or deleted in the storage account  then the pipeline has to be triggered
+    
